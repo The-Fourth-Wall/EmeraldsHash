@@ -1,0 +1,39 @@
+{
+  "name": "EmeraldsHash",
+
+  "version": "0.1.0",
+
+  "dependencies": {
+    "EmeraldsString": "The-Fourth-Wall/EmeraldsString"
+  },
+
+  "dev-dependencies": {
+    "cSpec": "Oblivious-Oblivious/cSpec"
+  },
+
+  "build": "",
+
+  "compile-flags": {
+    "cc": "clang",
+    "debug": {
+      "opt": "-Og -g",
+      "version": "-std=c99",
+      "flags": "-Wall -Wextra -Werror -pedantic -pedantic-errors -Wpedantic",
+      "warnings": "-Wno-extra-semi -Wno-unused-function"
+    },
+    "release": {
+      "opt": "-O2",
+      "version": "-std=c2x",
+      "flags": "",
+      "warnings": ""
+    },
+    "test": {
+      "opt": "-Og -g",
+      "version": "-std=c99",
+      "flags": "",
+      "warnings": ""
+    }
+  },
+
+  "license": "mit"
+}
