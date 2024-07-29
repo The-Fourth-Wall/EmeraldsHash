@@ -3,9 +3,7 @@
 
   "version": "0.1.0",
 
-  "dependencies": {
-    "EmeraldsString": "The-Fourth-Wall/EmeraldsString"
-  },
+  "dependencies": {},
 
   "dev-dependencies": {
     "cSpec": "Oblivious-Oblivious/cSpec"
