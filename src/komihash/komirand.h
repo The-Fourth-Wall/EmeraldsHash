@@ -7,6 +7,6 @@
  * @brief Wrapper for the komihash random function
  * @return size_t random
  */
-size_t komirand(void);
+size_t komirand_random(void);
 
 #endif
